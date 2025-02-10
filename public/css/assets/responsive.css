@@ -1,0 +1,815 @@
+/* Responsive Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media only screen and (max-width: 1199px) {
+
+    .project-area3 .project-filter .filter-menu a {
+        margin-right: 0;
+        padding: 0 17px;
+    }
+    .team-area2 .sec-title,
+    .home-blog2 .sec-title {
+        padding-top: 0;
+    }
+    .team-area2 .team-slider .owl-nav div {
+        margin-bottom: -45px;
+    }
+    .home-blog2 .blog-slider .owl-nav div {
+        margin-bottom: 0;
+    }
+    .pricing-table .pricing-box2 {
+        padding: 10px;
+    }
+    .pricing-table .pricing-box2 .pricing-top {
+        padding: 15px 0 30px;
+    }
+    .pricing-table .pricing-box2 .pricing-content {
+        padding: 20px 20px 18px;
+    }
+    .pricing-table .pricing-box2 .pricing-content ul {
+        margin-bottom: 20px;
+    }
+    .pricing-table .pricing-box2 .pricing-content a {
+        padding: 7px;
+    }
+    .banner-area .banner-box h3 {
+        font-size: 24px;
+    }
+    .banner-area .banner-box p {
+        font-size: 15px;
+    }
+    .banner-area .banner-box a.ban-btn {
+        margin-top: 2px;
+    }
+    .feature-area .feature-box {
+        margin-bottom: 30px;
+    }
+    .feature-area2 .feature-box .ft-content h6,
+    .feature-area3 .feature-box .ft-content h6 {
+        font-size: 14px;
+    }
+    .team-area .team-box .team-layer ul {
+        margin-left: -17px;
+    }
+    .feature-area3 .feature-box .ft-content p {
+        font-size: 14px;
+    }
+    .project-details .project-social {
+        display: none;
+    }
+    .team-area3 .team-box .team-img .team-layer ul {
+        margin-left: -17px;
+    }
+    .team-single .mem-content {
+        padding-top: 0;
+    }
+    .pricing-table .pricing-box {
+        padding: 20px;
+    }
+    .contact-area .contact-box .contact-item img {
+        max-width: 35px;
+        margin-right: 10px;
+    }
+    .contact-area .contact-box .contact-item {
+        padding: 10px;
+    }
+    .contact-area .get-in-touch {
+        margin-bottom: 40px;
+    }
+    .contact-area #map {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .main-menu nav.navbar div#navbarNavDropdown ul.navbar-nav li.nav-item a.nav-link {
+        margin-left: 0;
+    }
+    .feature-area .feature-box .ft-content h6,
+    .feature-area2 .feature-box .ft-content h6,
+    .service-area .feature-box .ft-content h6 {
+        font-size: 13px;
+    }
+    .feature-area .feature-box .ft-content p,
+    .feature-area2 .feature-box .ft-content p,
+    .service-area .feature-box .ft-content p {
+        font-size: 14px;
+    }
+    .pricing-table .pricing-box {
+        padding: 5px;
+    }
+    .pricing-table .pricing-box .pricing-top {
+        padding-bottom: 15px;
+    }
+    .pricing-table .pricing-box .pricing-top p {
+        font-size: 46px;
+    }
+    .pricing-table .pricing-box .pricing-content {
+        padding: 20px 15px 15px;
+    }
+    .pricing-table .pricing-box .pricing-content ul {
+        margin-bottom: 20px;
+    }
+    .pricing-table .pricing-box .pricing-content ul li {
+        font-size: 14px;
+    }
+    .pricing-table .pricing-box .pricing-content a {
+        font-size: 14px;
+        padding: 6px;
+    }
+    footer.footer-btm .ft-social ul li {
+        margin-right: 0;
+    }
+    footer.footer-btm .ft-social ul li a {
+        width: 26px;
+        height: 26px;
+        padding-top: 4px;
+    }
+    .project-area3 .project-filter {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .project-area .sec-title {
+        margin-bottom: 25px;
+    }
+    .team-area2 .team-slider .owl-nav div {
+        margin-bottom: 0;
+    }
+    .error-area .error-box h1 {
+        font-size: 210px;
+    }
+    .blog-area2 .pagination-box,
+    .blog-area3 .pagination-box,
+    .blog-details .blog-d-box .comment-form {
+        margin-bottom: 50px;
+    }
+    .hero-area .slider-wrapper .slider-item .slider-table .slider-tablecell h1 {
+        font-size: 32px;
+    }
+    .about-us .about-img img,
+    .about-us2 .about-img img {
+        display: none;
+    }
+    .about-us .sec-title,
+    .about-us .about-content,
+    .about-us2 .sec-title,
+    .about-us2 .about-content {
+        padding-left: 0;
+    }
+    .project-area .sec-title {
+        margin-bottom: 50px;
+    }
+    .pricing-table .pricing-box2,
+    .team-area .team-box {
+        margin-bottom: 30px;
+    }
+    .pricing-table,
+    .team-area {
+        padding: 100px 0 70px;
+    }
+    .banner-area .banner-box p {
+        display: none;
+    }
+    .banner-area .banner-box h3 {
+        line-height: 30px;
+        margin-bottom: 0;
+    }
+    footer.footer .f-link {
+        padding-left: 10px;
+    }
+    .team-area .team-box .team-layer ul {
+        margin-left: 15px;
+    }
+    ul.navbar-nav li.nav-item.search-box {
+        margin-left: 28px !important;
+    }
+    .project-details .project-img img {
+        margin-bottom: 40px;
+    }
+    .project-details .project-info {
+        margin-bottom: 0;
+    }
+    .project-details .pro-des ul li {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .team-area3 .team-box .team-img .team-layer ul {
+        margin-left: 15px;
+    }
+    .coming-soon .cm-table .cm-tablecell .cm-top h1 {
+        font-size: 40px;
+    }
+    .coming-soon .cm-table .cm-tablecell .countdown-timer #timer-wrapper .timer-body-block .table-cell .tab-val {
+        font-size: 56px;
+    }
+    .coming-soon .cm-table .cm-tablecell .countdown-timer #timer-wrapper .timer-body-block .table-cell {
+        padding: 0 25px;
+    }
+    .coming-soon .cm-table .cm-tablecell .countdown-timer {
+        margin-bottom: 55px;
+    }
+    .blog-details {
+        padding: 100px 0 85px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .hero-area,
+    .breadcrumb-area {
+        margin-top: 78px;
+    }
+    .hero-area .slider-wrapper .slider-item {
+        height: 420px;
+    }
+    .hero-area .slider-wrapper .slider-item .slider-table .slider-tablecell h5,
+    .error-area .error-hp {
+        display: none;
+    }
+    .hero-area .slider-wrapper .slider-item .slider-table .slider-tablecell h1 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .hero-area .slider-wrapper .slider-item .slider-table .slider-tablecell p,
+    .feature-area .sec-title p,
+    .about-us .sec-title p,
+    .about-us .about-content p,
+    .how-work .sec-title p,
+    .how-work .how-content p,
+    .project-area .sec-title p,
+    .testimonial-area .sec-title p,
+    .pricing-table .sec-title p,
+    .home-blog .sec-title p,
+    .about-us2 .sec-title p,
+    .about-us2 .about-content p,
+    .feature-area2 .sec-title p,
+    .project-area2 .sec-title p,
+    .team-area .sec-title p,
+    .service-area .sec-title span,
+    .team-area2 .sec-title span,
+    .home-blog2 .sec-title span,
+    .banner-area .banner-box p,
+    .project-gallery .sec-title p,
+    .team-single .mem-content span,
+    .career-area .sec-title p,
+    .faq-area .faq-box .card .card-body p,
+    .contact-area .get-in-touch .contact-form form#ajax-contact div div label,
+    .contact-area .contact-box .contact-item h6 {
+        font-size: 15px;
+    }
+    .hero-area .slider-wrapper .slider-item .slider-table .slider-tablecell a.hero-btn,
+    .hero-area .slider-wrapper .slider-item .slider-table .slider-tablecell a.vd-btn {
+        font-size: 14px;
+        width: 130px;
+        padding: 9px;
+    }
+    .feature-area {
+        padding: 50px 0 60px;
+    }
+    .feature-area2 {
+        padding: 50px 0 5px;
+    }
+    .feature-area .sec-title h3,
+    .about-us .sec-title h3,
+    .how-work .sec-title h3,
+    .project-area .sec-title h3,
+    .testimonial-area .sec-title h3,
+    .pricing-table .sec-title h3,
+    .home-blog .sec-title h3,
+    .about-us2 .sec-title h3,
+    .feature-area2 .sec-title h3,
+    .project-area2 .sec-title h3,
+    .team-area .sec-title h3,
+    .service-area .sec-title h3,
+    .home-blog2 .sec-title h3,
+    .banner-area .banner-box h3,
+    .project-gallery .sec-title h3,
+    .project-details .pro-about h5,
+    .project-details .pro-des h5,
+    .project-details .rel-project h5,
+    .team-single .mem-content h3,
+    .career-area .sec-title h3,
+    .contact-area .get-in-touch .sec-title h3,
+    .vd-area .vd-table .vd-tablecell .vd-content h2,
+    .feature-area3 .sec-title h3,
+    .career-area .career-table h4,
+    .coming-soon .cm-table .cm-tablecell .cm-btm p {
+        font-size: 18px;
+    }
+    .feature-area .feature-lft:before,
+    .feature-area .feature-lft:after,
+    .feature-area .feature-ryt:before {
+        content: none;
+    }
+    .feature-area .feature-box {
+        padding-right: 0;
+    }
+    .feature-area .feature-box2,
+    .about-us .sec-title,
+    .about-us .about-content,
+    .about-us2 .sec-title,
+    .about-us2 .about-content,
+    .team-single .mem-content {
+        padding-left: 0;
+    }
+    .feature-area .feature-lft {
+        margin-bottom: 50px;
+    }
+    .about-us,
+    .how-work,
+    .about-us2,
+    .team-area2,
+    .blog-area,
+    .blog-area2,
+    .blog-area3 {
+        padding: 50px 0;
+    }
+    .blog-details {
+        padding: 50px 0 37px;
+    }
+    .about-us .about-img img,
+    .how-work .how-content,
+    .about-us2 .about-img img,
+    .service-area .sec-title {
+        margin-bottom: 35px;
+    }
+    .about-us .num-counter {
+        margin-top: 35px;
+    }
+    .project-area,
+    .feature-area3 {
+        padding: 50px 0 25px;
+    }
+    .project-area2,
+    .project-gallery {
+        padding-top: 50px;
+    }
+    .project-area .sec-title {
+        margin-bottom: 25px;
+    }
+    .project-area .project-filter .filter-menu a {
+        font-size: 13px;
+    }
+    .testimonial-area {
+        padding: 45px 0 105px;
+    }
+    .pricing-table {
+        padding: 50px 0 30px;
+    }
+    .pricing-table .pricing-box,
+    .pricing-table .pricing-box2 {
+        max-width: 100%;
+        padding: 50px;
+        margin-bottom: 20px;
+    }
+    .career-area .career-content p {
+        display: none;
+    }
+    .home-blog {
+        padding: 40px 0 30px;
+    }
+    .home-blog .blog-box {
+        margin-bottom: 20px;
+    }
+    .brand-area .brand-box img {
+        max-width: 100px;
+    }
+    footer.footer,
+    .project-details,
+    .login-area {
+        padding: 50px 0;
+    }
+    .f-about,
+    footer.footer .f-link,
+    footer.footer .f-post {
+        margin-bottom: 30px;
+        padding-left: 0;
+    }
+    footer.footer-btm .copy-text,
+    footer.footer-btm .ft-social ul {
+        text-align: center !important;
+    }
+    footer.footer-btm .ft-menu {
+        margin-bottom: 10px;
+    }
+    footer.footer .f-link h5,
+    footer.footer .f-post h5,
+    footer.footer .f-news h5 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .team-area,
+    .home-blog2,
+    .team-single,
+    .registration,
+    .contact-area {
+        padding: 50px 0;
+    }
+    .team-area .team-box {
+        max-width: 360px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .service-area {
+        padding: 50px 0 30px;
+    }
+    .service-area .sec-title {
+        padding-top: 0;
+    }
+    .team-area2 .sec-title h3 {
+        font-size: 18px;
+        max-width: 100%;
+    }
+    .team-area2 .sec-title p,
+    .home-blog2 .sec-title p {
+        max-width: 100%;
+    }
+    .banner-area .banner-box {
+        display: inherit !important;
+        text-align: center;
+    }
+    .banner-area .banner-box a.ban-btn {
+        font-size: 14px;
+        width: 145px;
+        height: 40px;
+        padding-top: 10px;
+    }
+    .project-details .project-img img {
+        margin-bottom: 35px;
+    }
+    .team-area3 {
+        padding: 50px 0 0;
+    }
+    .team-area3 .team-box {
+        max-width: 345px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .team-single .mem-content p.p1,
+    .faq-area .faq-box .card .card-header a span {
+        font-size: 16px;
+    }
+    .career-area,
+    .faq-area {
+        padding: 50px 30px;
+    }
+    .faq-area .faq-box .card .card-header a i {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    .error-area .error-hp {
+        margin-top: 45px;
+    }
+    .error-area {
+        padding: 140px 0 80px;
+    }
+    .coming-soon .cm-table .cm-tablecell .cm-top h1 {
+        font-size: 36px;
+    }
+    .coming-soon .cm-table .cm-tablecell .countdown-timer #timer-wrapper .timer-body-block .table-cell {
+        padding: 0 30px;
+    }
+    .coming-soon .cm-table .cm-tablecell .countdown-timer #timer-wrapper .timer-body-block .table-cell .tab-val {
+        font-size: 44px;
+    }
+    .contact-area .contact-box .contact-item {
+        margin-bottom: 20px;
+    }
+    .vd-area .vd-table .vd-tablecell .vd-content p {
+        font-size: 14px;
+    }
+    .vd-area {
+        height: 350px;
+    }
+    .vd-area .vd-table .vd-tablecell .vd-content a#video-btn {
+        font-size: 30px;
+        width: 50px;
+        height: 50px;
+        padding-top: 4px;
+    }
+    .project-area .sec-title {
+        margin-bottom: 45px;
+    }
+    .pricing-table .pricing-box2 {
+        max-width: 100%;
+    }
+    .banner-area .banner-box h3 {
+        margin-bottom: 15px;
+    }
+    .banner-area {
+        padding: 50px 0;
+    }
+    .about-us .num-counter .col-md-3 .counter-box h2 span {
+        padding-left: 0;
+        font-size: 24px;
+    }
+    .about-us .num-counter .col-md-3 .counter-box h2 i {
+        font-size: 15px;
+    }
+    .about-us .num-counter .col-md-3 .counter-box p {
+        font-size: 13px;
+    }
+    .team-area .team-box .team-layer ul {
+        margin-left: -10px;
+    }
+    .team-area {
+        padding-bottom: 20px;
+    }
+    .team-area3 .team-box .team-img .team-layer ul {
+        margin-left: -10px;
+    }
+    .team-single .team-mem-img img {
+        margin-bottom: 40px;
+    }
+    .pricing-table .sec-title2 {
+        margin-top: 20px;
+    }
+    .career-area .career-box {
+        margin-bottom: 20px;
+    }
+    .career-area .career-table {
+        margin-top: 15px;
+    }
+    .career-area .career-table .table-box .job-title h5 a {
+        font-size: 16px;
+    }
+    .career-area .career-table .table-box .job-title ul li {
+        font-size: 13px;
+    }
+    .career-area .career-table .table-box .job-apply a {
+        font-size: 14px;
+    }
+    .coming-soon {
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+
+    .about-us .about-img img,
+    .about-us .num-counter,
+    .brand-area,
+    .about-us2 .about-content .num-counter,
+    .about-us2 .about-img img {
+        display: none;
+    }
+    .about-us2 .about-content p {
+        margin-bottom: 0;
+    }
+    .pricing-table .pricing-box,
+    .pricing-table .pricing-box2 {
+        max-width: 100%;
+        padding: 30px;
+    }
+    .project-area3 .project-filter .filter-menu a {
+        padding: 6px 15px;
+    }
+    .breadcrumb-area .breadcrumb-box h2 {
+        font-size: 24px;
+    }
+    .login-area .login-box,
+    .registration .registration-box {
+        width: 100%;
+        padding: 30px;
+    }
+    .project-area .project-filter .filter-menu a {
+        padding: 0 10px;
+    }
+    .hero-area .slider-wrapper .slider-item .slider-table .slider-tablecell h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .hero-area .slider-wrapper .slider-item .slider-table .slider-tablecell p {
+        display: none;
+    }
+    .hero-area .slider-wrapper .slider-item .slider-table .slider-tablecell .text-right,
+    .hero-area .slider-wrapper .slider-item .slider-table .slider-tablecell .slider-btn {
+        text-align: center !important;
+    }
+    .hero-area .slider-wrapper .slider-item {
+        height: 250px;
+    }
+    .team-area .team-box .team-layer ul {
+        margin-left: 25px;
+    }
+    .team-area3 .team-box .team-img .team-layer ul {
+        margin-left: 20px;
+    }
+    .error-area .error-box h4 {
+        font-size: 18px;
+    }
+    .error-area .error-box p {
+        font-size: 15px;
+    }
+    .error-area .error-box a {
+        font-size: 14px;
+        width: 185px;
+        padding: 10px;
+    }
+    .coming-soon .cm-table .cm-tablecell .cm-top h1 {
+        font-size: 24px;
+    }
+    .coming-soon .cm-table .cm-tablecell .countdown-timer #timer-wrapper .timer-body-block .table-cell {
+        padding: 0 20px;
+    }
+    .coming-soon .cm-table .cm-tablecell .cm-btm ul li a {
+        font-size: 14px;
+        width: 35px;
+        height: 35px;
+        padding-top: 7px;
+    }
+    .contact-area #map {
+        height: 340px;
+    }
+    .contact-area .contact-box {
+        display: none;
+    }
+    .contact-area .get-in-touch .contact-form form#ajax-contact div div {
+        margin-bottom: 20px;
+    }
+    .contact-area .con-social {
+        margin-top: 5px;
+    }
+    .blog-area3 .blog-box .img-content p,
+    .blog-details .blog-d-box .image-content p,
+    .blog-details .blog-d-box .image-content p span {
+        font-size: 14px;
+    }
+    .blog-area3 .blog-box .img-content a.blog-btn {
+        font-size: 14px;
+        padding: 5px 20px;
+    }
+    .blog-details .blog-d-box .image-content h4,
+    .blog-details .blog-d-box .blog-comment h4 {
+        font-size: 16px;
+    }
+    .blog-details .blog-d-box .blog-comment .comment-box .comment-img a img {
+        width: 65px;
+    }
+    .blog-details .blog-d-box .blog-comment .comment-box {
+        margin-bottom: 25px;
+    }
+    .blog-details .blog-d-box .blog-comment .comment-box .comment-con ul li:nth-child(1) a {
+        font-size: 14px;
+    }
+    .blog-details .blog-d-box .blog-btns .share-btn ul li a i {
+        font-size: 13px;
+        width: 30px;
+        height: 30px;
+        padding-top: 8px;
+    }
+    .blog-details .blog-d-box .blog-btns .post-bfaf ul li a {
+        font-size: 13px;
+        width: 60px;
+        height: 30px;
+        padding-top: 5px;
+    }
+    .blog-details .blog-d-box .comment-form form button {
+        font-size: 15px;
+        width: 160px;
+        height: 40px;
+    }
+    .blog-details .blog-d-box .comment-form form input {
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .career-area .career-table .table-box {
+        display: inherit !important;
+    }
+    .error-area .error-box h1 {
+        font-size: 144px;
+    }
+    .coming-soon .cm-table .cm-tablecell .cm-top h1 {
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+    .coming-soon .cm-table .cm-tablecell .countdown-timer #timer-wrapper .timer-body-block .table-cell .tab-val {
+        font-size: 32px;
+    }
+    .coming-soon .cm-table .cm-tablecell .countdown-timer #timer-wrapper .timer-body-block .table-cell .tab-unit {
+        font-size: 13px;
+    }
+    .coming-soon .cm-table .cm-tablecell .cm-btm form {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .coming-soon .cm-table .cm-tablecell .countdown-timer #timer-wrapper .timer-body-block .table-cell {
+        margin-bottom: 25px;
+        border-right: none;
+    }
+    .coming-soon .cm-table .cm-tablecell .countdown-timer {
+        margin-bottom: 0;
+    }
+    .coming-soon .cm-table .cm-tablecell .cm-btm ul li a {
+        font-size: 13px;
+        width: 32px;
+        height: 32px;
+        padding-top: 5px;
+    }
+    .coming-soon .cm-table .cm-tablecell .cm-btm p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .coming-soon .cm-table .cm-tablecell .countdown-timer #timer-wrapper .timer-body-block .table-cell {
+        padding: 0 8px;
+    }
+    .coming-soon .cm-table .cm-tablecell .cm-btm form input {
+        height: 40px;
+    }
+    .coming-soon {
+        height: 380px;
+    }
+    .vd-area .vd-table .vd-tablecell .vd-content p {
+        display: none;
+    }
+    .vd-area {
+        height: 230px;
+    }
+    .team-area .team-box .team-layer ul {
+        margin-left: -3px;
+    }
+    .team-area3 .team-box .team-img .team-layer ul {
+        margin-left: -5px;
+    }
+    .error-area .error-hp h5 {
+        font-size: 15px;
+    }
+    .error-area .error-hp ul li a,
+    .login-area .login-box form.login-form div.chqbox label,
+    .login-area .login-box form.login-form div.forget-btn a {
+        font-size: 14px;
+    }
+    .login-area .login-box .login-top p,
+    .login-area .login-box .login-btm,
+    .registration .registration-box .reg-top p,
+    .registration .registration-box form.reg-form div.chqbox,
+    .registration .registration-box .login-btm,
+    .contact-area .get-in-touch .sec-title p {
+        display: none;
+    }
+    .login-area .login-box .login-top,
+    .registration .registration-box .reg-top {
+        margin-bottom: 15px;
+    }
+    .login-area .login-box form.login-form div.email label,
+    .login-area .login-box form.login-form div.password label,
+    .registration .registration-box form.reg-form div.name label,
+    .registration .registration-box form.reg-form div.srname label,
+    .registration .registration-box form.reg-form div.email label,
+    .registration .registration-box form.reg-form div.password label {
+        font-size: 15px;
+    }
+    .login-area .login-box form.login-form button,
+    .registration .registration-box form.reg-form button {
+        font-size: 14px;
+        height: 40px;
+        margin-bottom: 0;
+    }
+    .login-area .login-box .login-top h3,
+    .registration .registration-box .reg-top h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .contact-area .con-social ul li a {
+        font-size: 15px;
+        width: 35px;
+        height: 35px;
+        padding-top: 5px;
+    }
+    .contact-area .get-in-touch .sec-title h3 {
+        text-align: center;
+    }
+    .contact-area .get-in-touch .contact-form form#ajax-contact div div button {
+        height: 42px;
+    }
+    .blog-area3 .blog-box .img-content ul li a {
+        font-size: 13px;
+    }
+    .blog-area3 .blog-box .img-content ul li {
+        font-size: 14px;
+        margin-right: 0;
+    }
+    .blog-area3 .blog-box .img-content ul li a i {
+        font-size: 14px;
+    }
+    .blog-area3 .blog-box .img-content h5 a {
+        font-size: 16px;
+    }
+    .blog-area3 .pagination-box ul li,
+    .blog-area .pagination-box ul li,
+    .blog-area2 .pagination-box ul li {
+        margin-right: 0;
+    }
+    .blog-area3 .pagination-box ul li a,
+    .blog-area .pagination-box ul li a,
+    .blog-area2 .pagination-box ul li a {
+        font-size: 14px;
+        width: 30px;
+        height: 30px;
+        padding-top: 5px;
+    }
+}
