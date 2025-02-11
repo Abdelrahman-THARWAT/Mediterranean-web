@@ -2,21 +2,20 @@
 
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
+Route::group(['prefix' => '{locale}', 'where' => ['locale' => 'en|ar'], 'middleware' => 'setlocale'], function () {
 
-Route::get('/', function () {
-    return view('index');
+    // Home route
+    Route::get('/', function () {
+        return view('index');
+    });
+
+    // Contact us route
+    Route::get('contact-us', function () {
+        return view('22-contact');
+    });
 });
 
-Route::get('contact-us', function(){
-    return view('22-contact');
+// Default redirect if no locale is set
+Route::get('/', function () {
+    return redirect('en'); // Default to 'en'
 });
