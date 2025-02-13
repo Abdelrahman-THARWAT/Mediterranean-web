@@ -101,7 +101,7 @@
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="/">{{ __('content.home') }}</a>
+                                <a class="nav-link active" href="/">{{ __('content.home') }}</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#about_us">{{ __('content.about_us') }}</a>
@@ -134,7 +134,7 @@
                             <nav id="dropdown">
                                 <a href="#"><img src={{ asset('images/logo.png') }} alt="" style="width: 20em; margin-bottom: 2em;"></a>
                                 <ul class="list-unstyled">
-                                    <li><a href="/">{{ __('content.home') }}</a></li>
+                                    <li><a href="/" class="nav-link active">{{ __('content.home') }}</a></li>
                                     <li><a href="#about_us">{{ __('content.about_us') }}</a></li>
                                     <li><a class="nav-link" href="#services">{{ __('content.services') }}</a></li>
                                     <li><a href="#Major_shareholders">{{ __('content.major_shareholders') }}</a></li>

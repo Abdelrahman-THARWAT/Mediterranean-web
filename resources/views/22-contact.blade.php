@@ -115,7 +115,7 @@
                                 <a class="nav-link" href="#news">{{ __('content.corporate_news') }}</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ app()->getLocale() === 'ar' ? 'ar/contact-us' : 'en/contact-us' }}">{{ __('content.contact') }}</a>
+                                <a class="nav-link active" href="{{ app()->getLocale() === 'ar' ? 'ar/contact-us' : 'en/contact-us' }}">{{ __('content.contact') }}</a>
                             </li>
                         </ul>
                     </div>
@@ -148,7 +148,7 @@
                                     <li><a href="/">our Corporate News</a>
 
                                     </li>
-                                    <li><a href="/contact-us">Contact</a></li>
+                                    <li><a href="/contact-us" class="active">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
