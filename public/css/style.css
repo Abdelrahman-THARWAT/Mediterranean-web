@@ -1044,179 +1044,33 @@ input:focus, textarea:focus {
 }
 
 .hero-area .slider-wrapper .slider1 {
-  background-image: url(../images/slider-1.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  position: relative; /* Ensure the container is positioned */
+  overflow: hidden;   /* Hide any overflow from the video */
 }
 
-.hero-area .slider-wrapper .slider2 {
-  background-image: url(../images/slider-2.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-}
-
-.hero-area .slider-wrapper .slider2:before {
-  position: absolute;
-  content: '';
-  background: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-
-.hero-area .slider-wrapper .slider2 p {
-  margin: auto;
-}
-
-.hero-area .slider-wrapper .slider3 {
-  background-image: url(../images/slider-3.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.hero-area .slider-wrapper .slider3:before {
-  position: absolute;
-  content: '';
-  background: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-
-.hero-area .slider-wrapper .slider4 {
-  background-image: url(../images/slider-4.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.hero-area .slider-wrapper .slider4:before {
-  position: absolute;
-  content: '';
-  background: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-
-.hero-area .slider-wrapper .slider5 {
-  background-image: url(../images/slider-5.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 850px;
-}
-
-.hero-area .slider-wrapper .slider5:before {
-  position: absolute;
-  content: '';
-  background: rgba(0, 0, 0, 0.6);
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-
-.hero-area .slider-wrapper .slider6 {
-  background-image: url(../images/slider-6.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 850px;
-}
-
-.hero-area .slider-wrapper .slider6:before {
-  position: absolute;
-  content: '';
-  background: rgba(0, 0, 0, 0.6);
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-
-.hero-area .slider-wrapper .owl-nav div {
-  font-size: 24px;
-  color: #222222;
-  background: rgba(255, 255, 255, 0.6);
+#video-background {
   position: absolute;
   top: 50%;
-  left: -50px;
-  width: 45px;
-  height: 45px;
-  text-align: center;
-  padding-top: 6px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-  z-index: 1;
-  margin-top: -20px;
-  -webkit-transition: 0.3s ease;
-  -moz-transition: 0.3s ease;
-  -ms-transition: 0.3s ease;
-  -o-transition: 0.3s ease;
-  transition: 0.3s ease;
-  overflow: hidden;
-  opacity: 0;
-  visibility: hidden;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the video covers the entire area */
+  transform: translate(-50%, -50%); /* Center the video */
+  z-index: -2; /* Place the video behind the overlay and content */
 }
 
-.hero-area .slider-wrapper .owl-nav div:before {
+.hero-area .slider-wrapper .slider1::before {
+  content: '';
   position: absolute;
-  content: "";
-  background: #567ed2;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-  -webkit-transform: scale(0);
-  -ms-transform: scale(0);
-  transform: scale(0);
-  z-index: -1;
-  -webkit-transition: 0.4s ease;
-  -moz-transition: 0.4s ease;
-  -ms-transition: 0.4s ease;
-  -o-transition: 0.4s ease;
-  transition: 0.4s ease;
+  background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+  z-index: -1; /* Place overlay between the video and any content */
 }
 
-.hero-area .slider-wrapper .owl-nav div:hover {
-  color: #fff;
-}
 
-.hero-area .slider-wrapper .owl-nav div:hover:before {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-}
-
-.hero-area .slider-wrapper .owl-nav div.owl-next {
-  left: inherit;
-  right: -50px;
-}
-
-.hero-area .slider-wrapper:hover .owl-nav div {
-  opacity: 1;
-  visibility: visible;
-  left: 20px;
-}
-
-.hero-area .slider-wrapper:hover div.owl-next {
-  left: inherit;
-  right: 20px;
-}
 
 /* =======================================
 07. Feature Area

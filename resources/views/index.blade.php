@@ -153,6 +153,10 @@
         <section class="hero-area">
             <div class="slider-wrapper owl-carousel">
                 <div class="slider-item slider1">
+                    <video autoplay muted loop id="video-background">
+                        <source src={{asset('images/vid_main.mp4')}} type="video/mp4">
+                        
+                      </video>
                     <div class="slider-table">
                         <div class="slider-tablecell">
                             <div class="container">
@@ -173,27 +177,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="slider-item slider2">
-                    <div class="slider-table">
-                        <div class="slider-tablecell">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-12 text-right">
-                                        <div class="slider-heading animated fadeInDown" data-wow-duration="1.2s" data-wow-delay="0.2s">
-                                            <h1>{{ __('content.future_business') }}</h1>
-                                        </div>
-                                        <div class="slider-para animated fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                                            <p>{{ __('content.discover_opportunities') }}</p>
-                                        </div>
-                                        <div class="slider-btn animated fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                                            <a href="#services" class="hero-btn">{{ __('content.our_services_btn') }} <i class="la la-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </section>
         <!-- End Hero Area Area -->
