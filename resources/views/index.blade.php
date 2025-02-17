@@ -139,7 +139,7 @@
                                     <li><a class="nav-link" href="#services">{{ __('content.services') }}</a></li>
                                     <li><a href="#Major_shareholders">{{ __('content.major_shareholders') }}</a></li>
                                     <li><a href="#news">{{ __('content.corporate_news') }}</a></li>
-                                    <li><a href="/contact-us">{{ __('content.contact') }}</a></li>
+                                    <li> <a class="nav-link" href="{{ app()->getLocale() === 'ar' ? 'ar/contact-us' : 'en/contact-us' }}">{{ __('content.contact') }}</a></li>
                                 </ul>
                             </nav>
                         </div>
