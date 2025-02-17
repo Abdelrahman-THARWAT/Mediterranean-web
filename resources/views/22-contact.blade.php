@@ -106,16 +106,16 @@
                             <a class="nav-link" href="/">{{ __('content.home') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about_us">{{ __('content.about_us') }}</a>
+                            <a class="nav-link" href="/">{{ __('content.about_us') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#services">{{ __('content.services') }}</a>
+                            <a class="nav-link" href="/">{{ __('content.services') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#Major_shareholders">{{ __('content.major_shareholders') }}</a>
+                            <a class="nav-link" href="/">{{ __('content.major_shareholders') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#news">{{ __('content.corporate_news') }}</a>
+                            <a class="nav-link" href="/">{{ __('content.corporate_news') }}</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active"
